@@ -118,6 +118,9 @@
       color: chocolate;
     }
     /*some fact */
+    .some-main-content{
+       margin-left: 50px;
+    }
     .fact-card{
        border: 1px solid darkorange;
        width: 243.83px;
@@ -142,6 +145,22 @@
     .fact-container{
        display: grid;
        grid-template-columns: repeat(4, 1fr);
+    }
+    /* sponsors related styles */
+    .our-sponsors{
+       
+    }
+    .sponsor-info{
+       max-width: 540px;
+       margin: 50px auto;
+       text-align: center;
+    }
+    .sponsors-companies{
+       display: grid;
+       grid-template-columns: repeat(5,1fr);
+    }
+    .sponsors-companies img{
+       filter: grayscale(100%);
     }
   /*  responsive media query */
 
